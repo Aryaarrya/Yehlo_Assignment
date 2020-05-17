@@ -1,0 +1,88 @@
+html{
+	min-height: 100%
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #e3d8e6;
+	min-height: 100%;
+}
+
+form{
+	padding: 20px;
+	margin-top:60px;
+}
+
+form button,form h5{
+	margin: 20px 0;
+}
+
+form button {
+	width:100%
+}
+
+/* .project-summary div span img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+} */
+
+.phophoto {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+	
+}
+
+.phuto {
+	border: 1px solid #ddd;
+  	border-radius: 4px;
+  	padding: 5px;	
+	height: 175px;
+	
+	
+}
+
+.card-photo {
+	width: 20px;
+	height: 20px;
+}
+
+.individual {
+	float: left;
+}
+
+img {
+	width: 100%;
+    height: auto;
+}
+
+.rec {
+	flex: 0 1 calc(25% - 1em);
+}
+
+i {
+	padding-top: 5px;
+}
+
+
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: #ec407a;
+  box-shadow: none;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label{
+  color: #ec407a !important;
+}
+
